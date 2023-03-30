@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site de frase</title>
+    <link rel="stylesheet" href="phrases.css" />
+    <link rel="stylesheet" href="styleGlobal.css" />
+    <link rel="stylesheet" href="mediaPhrases.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <form class="form" id="form">
+      <h1 class="title titleRegister">Cadastre as suas frases preferidas</h1>
+
+      <label for="phrase" class="label">Frase</label>
+
+      <textarea
+        id="phrase"
+        class="textarea"
+        type="text"
+        placeholder="Bob has a cat"
+        autofocus
+      ></textarea>
+
+      <button disabled id="buttonRegister" class="registerButton btn" type="submit" onclick="newPhrase()">
+        Cadastrar
+      </button>
+    </form>
+    <button class="registeredPhrases btn">
+      <a href="/listPhrases/index.html" class="aLink"
+        >Ver frases cadastradas
+      </a>
+    </button>
+    <button class="practicePhrases btn">
+      <a href="/spacePractice/index.html" class="aLink">Praticar no site</a>
+    </button>
+  </body>
+</html>

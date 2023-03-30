@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.paragraph {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.blackText {
+  width: 150px;
+  font-size: 20px;
+}
+
+.purpleText {
+  width: 250px;
+  color: #8000ff;
+  font-style: italic;
+  font-size: 22px;
+}
+
+.purpleText2 {
+  width: 310px;
+  color: #8000ff;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.repeatPhrase {
+  margin-top: 50px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.paragraph {
+  font-size: 20px;
+}
+
+.otherPhrases {
+  margin-top: 100px;
+}

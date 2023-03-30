@@ -1,0 +1,30 @@
+@media (max-width: 414px) {
+  .label {
+    margin: 0 230px 10px 0;
+  }
+}
+
+@media (max-width: 414px) {
+  .title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 414px) {
+  .textarea {
+    height: 300px;
+    width: 300px;
+    outline: #8000ff;
+    background-color: #d9d9d9;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 414px) {
+  .registerButton,.registeredPhrases, .practicePhrases {
+    height: 50px;
+    width: 335px;
+    font-size: x-large;
+    margin-right: 20px;
+  }
+}
